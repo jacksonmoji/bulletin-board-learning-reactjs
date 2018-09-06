@@ -1,0 +1,24 @@
+{
+  "name": "bulletin-board-learning-reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jacksonmoji.github.io/bulletin-board-learning-reactjs",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-icons": "^3.0.5",
+    "react-icons-kit": "^1.1.7",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
